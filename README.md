@@ -1,6 +1,6 @@
 # Week-9-Honeypot
 
-[HoneyPot](https://imgur.com/a/3CAuFBj)
+[HoneyPot Photo](https://imgur.com/a/3CAuFBj)
 
 Which Honeypot(s) you deployed: I deployed the Dionaea honeypot with Ubuntu 14.04
 
@@ -8,10 +8,6 @@ Any issues you encountered: I had absolutely no luck with getting the Google Clo
 
 I use Digital Ocean for personal projects every once in awhile so, I decided to give the setup a go by creating a new droplet. Lo and behold, the setup worked flawlessly and I was able to setup my admin box and honeypot without any snags. I have no idea where my steps may have been failing on the gcloud setup, because the exact same steps on my digital ocean server worked just fine. ¯\_(ツ)_/¯
 
-A summary of the data collected: number of attacks, number of malware samples, etc.
+A summary of the data collected: number of attacks, number of malware samples, etc...: Since I deployed the Dionaea honeypot, the majority of the attacks I recevied appeared to be port scans to narrow down where vulnerabilities may lie with the service ports that my server had open. 
 
-Any unresolved questions raised by the data collected
-
-
-
-Additionally, include a json export of the data you collected in the repo, instructions for which can be found in the next section.
+Any unresolved questions raised by the data collected: n/a
