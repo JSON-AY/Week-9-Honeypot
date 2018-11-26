@@ -1,8 +1,11 @@
 # Week-9-Honeypot
 
 [Honeypot Attack Menu Photo](https://imgur.com/a/3CAuFBj)
+
 [Honeypot Attack Map Photo](https://imgur.com/a/Eq8N5Fk)
+
 [Nmap Scan of Honeypot Photo](https://imgur.com/a/tvhWb5d)
+
 Which Honeypot(s) you deployed: I deployed the Dionaea honeypot with Ubuntu 14.04
 
 Any issues you encountered: I had absolutely no luck with getting the Google Cloud Engine steps to work. I tried deploying three different projects and was unable to get the web page to load the admin sign-in page. The attack map would load and state that it was connected to the back end server, but I was never able to get the admin sign-in page to come up. I even tried adding on ports to the end of the IP Address in the URL but the only port that would do anything was 3000, which was the attack map.
