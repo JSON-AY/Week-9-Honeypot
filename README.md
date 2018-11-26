@@ -16,4 +16,4 @@ A summary of the data collected: number of attacks, number of malware samples, e
 
 I've attached the exported json file that contains the details for these attacks. 
 
-Any unresolved questions raised by the data collected: n/a
+Any unresolved questions raised by the data collected: When attempting to upload the json file, github would pipe out the following error: "Something went really wrong, and we can’t process that file." After re-saving the file in rich-text format it uploaded sucessfully. 
