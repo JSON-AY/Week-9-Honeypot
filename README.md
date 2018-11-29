@@ -14,6 +14,6 @@ I use Digital Ocean for personal projects every once in awhile so, I decided to 
 
 A summary of the data collected: number of attacks, number of malware samples, etc...: Since I deployed the Dionaea honeypot, the majority of the attacks I recevied appeared to be port scans to narrow down where vulnerabilities may lie with the service ports that my server had open. I had a total of over 18,000 attacks that I got during the course of an 18 hour honeypot deployment (roughly 1,000 attacks per hour). Since the Dionaea honeypot is built to have specific ports open, the majority of the attacks/vuln scans against the honeypot were as follows: SMB, HTTP, FTP, TFTP, MSSQL, MySQL, SIP (VOIP).
 
-I've attached the exported json file that contains the details for these attacks. 
+I've attached the exported json file that contains the details for these attacks. I've also taken down both of these servers as I'm not entirely sure how much Digital Ocean is a fan of someone running a honeypot using their services, so any attempt to reach these IP's will not work. If this is something that needs to be spun back up, I'm happy to, but just wanted to make a note of that here. 
 
 Any unresolved questions raised by the data collected: When attempting to upload the json file, github would pipe out the following error: "Something went really wrong, and we can’t process that file." After re-saving the file in rich-text format it uploaded sucessfully. 
